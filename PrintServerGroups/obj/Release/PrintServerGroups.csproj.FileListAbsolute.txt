@@ -1,0 +1,17 @@
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\bin\Release\PrintServerGroups.exe.config
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\bin\Release\PrintServerGroups.exe
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\bin\Release\PrintServerGroups.pdb
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\MainWindow.g.cs
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\App.g.cs
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups_MarkupCompile.cache
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups_MarkupCompile.lref
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\MainWindow.baml
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.g.resources
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.Properties.Resources.resources
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.csproj.GenerateResource.Cache
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.exe
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.pdb
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\bin\Release\PrintServerGroups.exe.manifest
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\bin\Release\PrintServerGroups.application
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.exe.manifest
+c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.application
