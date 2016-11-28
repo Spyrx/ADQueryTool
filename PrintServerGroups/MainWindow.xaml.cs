@@ -16,8 +16,13 @@ namespace PrintServerGroups
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Global for list of users. Stored here because of the nested groups
+        //TODO: See if there is a better way to store this information without using a global?
         private List<string> userList = new List<string>();
         #region Get Group List
+
+        //GetAllGroups will query the domain's Active Directory and pull a list of all of the groups found on the server.
+        //Groups will be sorted and added to the combobox by their display name
         public void getAllGroups()
         {
             List<string> groupNames = new List<string>();
@@ -27,7 +32,7 @@ namespace PrintServerGroups
 
             PrincipalSearcher pSearcher = new PrincipalSearcher(group);
 
-            // find all matches
+            //Find all groups and store Display name into List
             foreach (var found in pSearcher.FindAll())
             {
                 GroupPrincipal foundGroup = found as GroupPrincipal;
@@ -51,6 +56,9 @@ namespace PrintServerGroups
         #endregion
 
         #region Get Group Members from Group
+        //Pulls all users from the selected group in the combobox. If there are groups inside the groups, pull their members too.
+        //Check if the list already has the user listed in case they are in both the main group and included groups.
+        //Sort the list alphabetically. 
         public List<string> getUsers(string groupName)
         {
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
@@ -104,7 +112,7 @@ namespace PrintServerGroups
             memberList = getUsers(cmbxADGroups.SelectedItem.ToString());
             memberList.Sort();
 
-            //Do not include "like" roles. Ex. Like Accounting
+            //Do not include "like" roles. Ex. Like Kim (Accountant)
             foreach (string s in memberList)
             {
                 if (s != null && !s.Contains("Like"))
