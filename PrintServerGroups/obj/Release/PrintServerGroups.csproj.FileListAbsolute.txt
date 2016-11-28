@@ -15,3 +15,21 @@ c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\Pr
 c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\bin\Release\PrintServerGroups.application
 c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.exe.manifest
 c:\users\jkillius.bli\documents\visual studio 2015\Projects\PrintServerGroups\PrintServerGroups\obj\Release\PrintServerGroups.application
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\bin\Release\PrintServerGroups.exe.config
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\bin\Release\PrintServerGroups.exe.manifest
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\bin\Release\PrintServerGroups.application
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\bin\Release\PrintServerGroups.exe
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\bin\Release\PrintServerGroups.pdb
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\MainWindow.g.cs
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\App.g.cs
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups_MarkupCompile.cache
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups_MarkupCompile.lref
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\MainWindow.baml
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.g.resources
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.Properties.Resources.resources
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.csproj.GenerateResource.Cache
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.exe.manifest
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.application
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.exe
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.pdb
+C:\Users\jkillius.BLI\Documents\GitHub\ADQueryTool\PrintServerGroups\obj\Release\PrintServerGroups.csprojResolveAssemblyReference.cache
