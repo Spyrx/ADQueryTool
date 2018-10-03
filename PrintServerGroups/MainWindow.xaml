@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrintServerGroups"
         mc:Ignorable="d"
-        Title="AD Group Member Query Tool" Height="921" Width="544" WindowStartupLocation="CenterScreen" Icon="toolbox.ico">
+        Title="AD Group Member Query Tool" Height="925" Width="545" WindowStartupLocation="CenterScreen" Icon="toolbox.ico">
     <Window.Effect>
         <DropShadowEffect/>
     </Window.Effect>
