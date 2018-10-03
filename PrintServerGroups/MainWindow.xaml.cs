@@ -16,8 +16,6 @@ namespace PrintServerGroups
     /// </summary>
     public partial class MainWindow : Window
     {
-        //Global for list of users. Stored here because of the nested groups
-        //TODO: See if there is a better way to store this information without using a global?
         private List<string> userList = new List<string>();
         #region Get Group List
 
