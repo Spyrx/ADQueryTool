@@ -5,9 +5,6 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.DirectoryServices.AccountManagement;
 
-
-
-
 namespace PrintServerGroups
 {
     public partial class MainWindow : Window
