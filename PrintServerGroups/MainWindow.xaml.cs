@@ -133,7 +133,6 @@ namespace PrintServerGroups
             exApp.Visible = true;
             exApp.Workbooks.Add();
 
-            //Neat formatting.
             var row = 3;
             exApp.Cells[1, "A"] = cmbxADGroups.SelectedItem.ToString() + " Group Members";
             exApp.Cells[3, "A"] = "First Name";
