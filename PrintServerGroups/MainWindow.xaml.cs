@@ -10,15 +10,10 @@ using System.DirectoryServices.AccountManagement;
 
 namespace PrintServerGroups
 {
-
-     /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private List<string> userList = new List<string>();
-
-        //Groups will be sorted and added to the combobox by their display name
+        
         public void getAllGroups()
         {
             List<string> groupNames = new List<string>();
