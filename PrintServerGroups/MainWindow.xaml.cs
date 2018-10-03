@@ -44,11 +44,10 @@ namespace PrintServerGroups
         public List<string> getUsers(string groupName)
         {
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
-
             GroupPrincipal group = GroupPrincipal.FindByIdentity(ctx, groupName);
 
-            if (group != null)
-            {
+            if(group = null){ return null; }
+            
                 foreach (Principal p in group.GetMembers())
                 {
                     if(p.StructuralObjectClass == "group")
@@ -63,7 +62,6 @@ namespace PrintServerGroups
                         }
                     }
                 }
-            }
 
             return userList;
         }
