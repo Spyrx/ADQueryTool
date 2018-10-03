@@ -44,9 +44,8 @@ namespace PrintServerGroups
         public List<string> getUsers(string groupName)
         {
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
-
             GroupPrincipal group = GroupPrincipal.FindByIdentity(ctx, groupName);
-            
+
             if(group == null }{ return null;}
             foreach (Principal p in group.GetMembers())
                 {
@@ -62,6 +61,7 @@ namespace PrintServerGroups
                         }
                     }
                 }
+
             return userList;
         }
 
@@ -130,7 +130,6 @@ namespace PrintServerGroups
             exApp.Visible = true;
             exApp.Workbooks.Add();
 
-            //Neat formatting.
             var row = 3;
             exApp.Cells[1, "A"] = cmbxADGroups.SelectedItem.ToString() + " Group Members";
             exApp.Cells[3, "A"] = "First Name";
