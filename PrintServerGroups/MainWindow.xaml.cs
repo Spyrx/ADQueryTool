@@ -17,7 +17,6 @@ namespace PrintServerGroups
     public partial class MainWindow : Window
     {
         private List<string> userList = new List<string>();
-        #region Get Group List
 
         //Groups will be sorted and added to the combobox by their display name
         public void getAllGroups()
@@ -50,9 +49,6 @@ namespace PrintServerGroups
                 }
             }
         }
-        #endregion
-
-        #region Get Group Members from Group
 
         public List<string> getUsers(string groupName)
         {
@@ -81,9 +77,7 @@ namespace PrintServerGroups
 
             return userList;
         }
-        #endregion
 
-        #region Main
         public MainWindow()
         {
             InitializeComponent();
@@ -92,9 +86,7 @@ namespace PrintServerGroups
 
            
         }
-        #endregion
-
-        #region Group Selection Changed
+        
         private void cmbxADGroups_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (!listBoxGroupMembers.Items.IsEmpty)
@@ -116,9 +108,7 @@ namespace PrintServerGroups
             }
             memberList.Clear();
         }
-        #endregion  
 
-        #region Print Document
         public void printDocument(StringBuilder Text)
         {
         
@@ -134,9 +124,7 @@ namespace PrintServerGroups
                 pd.PrintDocument(idpSource.DocumentPaginator, "Group Members");
             }
         }
-        #endregion
-
-        #region Print Button
+        
         private void btnPrint_Click(object sender, RoutedEventArgs e)
         {
             StringBuilder textString = new StringBuilder();
@@ -151,9 +139,7 @@ namespace PrintServerGroups
             }
             printDocument(textString);
         }
-        #endregion  
 
-        #region Export Button
         private void btnExport_Click(object sender, RoutedEventArgs e)
         {
             var exApp = new Microsoft.Office.Interop.Excel.Application();
@@ -188,6 +174,5 @@ namespace PrintServerGroups
 
             exApp.Columns.AutoFit(); 
         }
-        #endregion
     }
 }
