@@ -20,7 +20,6 @@ namespace PrintServerGroups
 
             PrincipalSearcher pSearcher = new PrincipalSearcher(group);
 
-            //Find all groups and store Display name into List
             foreach (var found in pSearcher.FindAll())
             {
                 GroupPrincipal foundGroup = found as GroupPrincipal;
@@ -54,7 +53,6 @@ namespace PrintServerGroups
                 {
                     if(p.StructuralObjectClass == "group")
                     {
-                        //Pulls members from nested groups
                         getUsers(p.DisplayName);
                     }
                     else
@@ -73,10 +71,7 @@ namespace PrintServerGroups
         public MainWindow()
         {
             InitializeComponent();
-
             getAllGroups();
-
-           
         }
         
         private void cmbxADGroups_SelectionChanged(object sender, SelectionChangedEventArgs e)
