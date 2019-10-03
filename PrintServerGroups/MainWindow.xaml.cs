@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -13,7 +13,7 @@ namespace PrintServerGroups
         
         public void getAllGroups()
         {
-            List<string> groupNames = new List<string>();
+            List<string> GroupNames = new List<string>();
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
 
             GroupPrincipal group = new GroupPrincipal(ctx);
@@ -30,9 +30,9 @@ namespace PrintServerGroups
                 }
             }
 
-            groupNames.Sort();
+            GroupNames.Sort();
 
-            foreach (string s in groupNames)
+            foreach (string s in GroupNames)
             {
                 if (s != null)
                 {
@@ -96,7 +96,7 @@ namespace PrintServerGroups
         public void printDocument(StringBuilder Text)
         {
         
-           PrintDialog pd = new PrintDialog();
+            PrintDialog pd = new PrintDialog();
             FlowDocument fd = new FlowDocument(new Paragraph(new Run(Text.ToString())));
             fd.Name = "GroupMembers";
             fd.PagePadding = new Thickness(40);
