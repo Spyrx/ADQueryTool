@@ -11,7 +11,7 @@ namespace PrintServerGroups
     {
         private List<string> userList = new List<string>();
         
-        public void getAllGroups()
+        public void GetAllGroups()
         {
             List<string> groupNames = new List<string>();
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
@@ -41,7 +41,7 @@ namespace PrintServerGroups
             }
         }
 
-        public List<string> getUsers(string groupName)
+        public List<string> GetUsers(string groupName)
         {
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
             GroupPrincipal group = GroupPrincipal.FindByIdentity(ctx, groupName);
@@ -68,7 +68,7 @@ namespace PrintServerGroups
         public MainWindow()
         {
             InitializeComponent();
-            getAllGroups();
+            GetAllGroups();
         }
         
         private void cmbxADGroups_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -80,7 +80,7 @@ namespace PrintServerGroups
             }
 
             List<string> memberList = new List<string>();
-            memberList = getUsers(cmbxADGroups.SelectedItem.ToString());
+            memberList = GetUsers(cmbxADGroups.SelectedItem.ToString());
             memberList.Sort();
 
             foreach (string s in memberList)
