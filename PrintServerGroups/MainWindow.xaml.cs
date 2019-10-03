@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Text;
-using System.Windows;﻿using System.Collections.Generic;
+using System.Windows;
+using System.Collections.Generic;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -48,7 +49,7 @@ namespace PrintServerGroups
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
             GroupPrincipal group = GroupPrincipal.FindByIdentity(ctx, groupName);
 
-            if(group == null }{ return null;}
+            if(group == null) { return null;}
             foreach (Principal p in group.GetMembers())
                 {
                     if(p.StructuralObjectClass == "group")
@@ -98,7 +99,7 @@ namespace PrintServerGroups
         public void printDocument(StringBuilder Text)
         {
         
-            PrintDialog pd = new  ();
+            PrintDialog pd = new PrintDialog();
             FlowDocument fd = new FlowDocument(new Paragraph(new Run(Text.ToString())));
             fd.Name = "GroupMembers";
             fd.PagePadding = new Thickness(40);
