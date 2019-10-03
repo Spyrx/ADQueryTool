@@ -1,9 +1,6 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.DirectoryServices.AccountManagement;
