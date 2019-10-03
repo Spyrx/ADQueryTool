@@ -46,9 +46,8 @@ namespace PrintServerGroups
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
             GroupPrincipal group = GroupPrincipal.FindByIdentity(ctx, groupName);
 
-            if(group = null){ return null; }
-            
-                foreach (Principal p in group.GetMembers())
+            if(group == null }{ return null;}
+            foreach (Principal p in group.GetMembers())
                 {
                     if(p.StructuralObjectClass == "group")
                     {
